@@ -1,5 +1,8 @@
 {
     "editor.wordWrap": "on",
+    "editor.formatOnSave": true,
+    "typescript.preferences.quoteStyle": "single",
     "prettier.singleQuote": true,
-    "editor.formatOnSave": true
+    "javascript.preferences.quoteStyle": "single",
+    "prettier.jsxSingleQuote": true
 }
