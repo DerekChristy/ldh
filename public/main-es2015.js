@@ -555,18 +555,18 @@ __webpack_require__.r(__webpack_exports__);
 class TeamService {
     constructor(http) {
         this.http = http;
-        this.url = 'http://localhost:8080/';
+        this.url = "";
     }
     uploadTeam(team) {
-        return this.http.post(this.url + 'uploadTeam/', team);
+        return this.http.post(this.url + "uploadTeam/", team);
     }
     uploadImage(image) {
         const fd = new FormData();
-        fd.append('image', image, image.name);
-        return this.http.post(this.url + 'uploadImage/', fd);
+        fd.append("image", image, image.name);
+        return this.http.post(this.url + "uploadImage/", fd);
     }
     getTeams() {
-        return this.http.get(this.url + 'teams');
+        return this.http.get(this.url + "teams");
     }
 }
 TeamService.ngInjectableDef = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({ factory: function TeamService_Factory() { return new TeamService(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"])); }, token: TeamService, providedIn: "root" });
