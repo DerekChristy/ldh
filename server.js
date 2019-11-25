@@ -86,5 +86,5 @@ app.post('/uploadTeam', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log('Server listening at http://localhost:8080/');
+  console.log(`Server listening at http://localhost:${PORT}/`);
 });
