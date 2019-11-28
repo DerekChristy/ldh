@@ -38,6 +38,10 @@ app.get('/', (req, res) => {
   res.send('ok');
 });
 
+app.get('/home', (req, res) => {
+  res.redirect('/');
+});
+
 app.post('/uploadImage', multerUploads, (req, res) => {
   if (req.file) {
     console.log('Uploading image...');
