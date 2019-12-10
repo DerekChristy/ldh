@@ -66,7 +66,7 @@ app.post('/uploadImage', multerUploads, (req, res) => {
 
 const Team = require('./models/team');
 
-app.get('/teams', (req, res) => {
+app.get('/allTeams', (req, res) => {
   Team.find((err, teams) => {
     if (err) {
       res.status(501).send(err);

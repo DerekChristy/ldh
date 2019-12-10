@@ -573,18 +573,18 @@ __webpack_require__.r(__webpack_exports__);
 var TeamService = /** @class */ (function () {
     function TeamService(http) {
         this.http = http;
-        this.url = "";
+        this.url = '';
     }
     TeamService.prototype.uploadTeam = function (team) {
-        return this.http.post(this.url + "uploadTeam/", team);
+        return this.http.post(this.url + 'uploadTeam/', team);
     };
     TeamService.prototype.uploadImage = function (image) {
         var fd = new FormData();
-        fd.append("image", image, image.name);
-        return this.http.post(this.url + "uploadImage/", fd);
+        fd.append('image', image, image.name);
+        return this.http.post(this.url + 'uploadImage/', fd);
     };
     TeamService.prototype.getTeams = function () {
-        return this.http.get(this.url + "teams");
+        return this.http.get(this.url + 'allTeams');
     };
     TeamService.ngInjectableDef = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({ factory: function TeamService_Factory() { return new TeamService(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"])); }, token: TeamService, providedIn: "root" });
     return TeamService;
