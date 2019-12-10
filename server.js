@@ -42,6 +42,10 @@ app.get('/home', (req, res) => {
   res.redirect('/');
 });
 
+app.get('/teams', (req, res) => {
+  res.redirect('/');
+});
+
 app.post('/uploadImage', multerUploads, (req, res) => {
   if (req.file) {
     console.log('Uploading image...');
