@@ -692,13 +692,285 @@ __webpack_require__.r(__webpack_exports__);
 var TeamsComponent = /** @class */ (function () {
     function TeamsComponent(teamService) {
         this.teamService = teamService;
-        this.teams = [];
+        this.teams = [
+            {
+                name: 'Team-F5',
+                project: '',
+                projDesc: '',
+                members: [
+                    { name: 'Sunil kumar V', image: '' },
+                    { name: 'Mariajohn Antony Michael Arulanand', image: '' }
+                ]
+            },
+            {
+                name: 'TAMILROCKERZ',
+                project: '',
+                projDesc: '',
+                members: [
+                    { name: 'ARUL LEO JONES A', image: '' },
+                    { name: 'J AJAY KIRUBAKAR', image: '' },
+                    { name: 'JEFRY JEEVARAJ G', image: '' },
+                    { name: 'NIRANJAN KUMAR S', image: '' }
+                ]
+            },
+            {
+                name: 'Batch 2000',
+                project: '',
+                projDesc: '',
+                members: [
+                    { name: 'AJAY KUMAR', image: '' },
+                    { name: 'VISHNU SANJAY', image: '' },
+                    { name: 'PRANEETH CHANDRA', image: '' },
+                    { name: 'Giridhar reddy', image: '' }
+                ]
+            },
+            {
+                name: 'Groza',
+                project: '',
+                projDesc: '',
+                members: [
+                    { name: 'Oliver', image: '' },
+                    { name: 'Alex Kuriakose', image: '' },
+                    { name: 'Roshan R.S.', image: '' }
+                ]
+            },
+            {
+                name: 'Bruhgrammers',
+                project: '',
+                projDesc: '',
+                members: [
+                    { name: 'Joel Sam', image: '' },
+                    { name: 'Joshua Daniel', image: '' },
+                    { name: 'Richard Timothy', image: '' },
+                    { name: 'Daniel Livingston', image: '' }
+                ]
+            },
+            {
+                name: 'LEVIN',
+                project: '',
+                projDesc: '',
+                members: [
+                    { name: 'Nevin Jacob', image: '' },
+                    { name: 'Aakash Harikumar', image: '' },
+                    { name: 'David Samuel Rufus Dalavai', image: '' }
+                ]
+            },
+            {
+                name: 'TechLife',
+                project: '',
+                projDesc: '',
+                members: [
+                    { name: 's.Ravitejeswar reddy', image: '' },
+                    { name: 'm.n.v.s.s.manidhar', image: '' },
+                    { name: 'Prakhyath', image: '' },
+                    { name: 'Rishab Haldar', image: '' }
+                ]
+            },
+            {
+                name: 'BOTOX',
+                project: '',
+                projDesc: '',
+                members: [
+                    { name: 'victor joshua', image: '' },
+                    { name: 'abhishek g k', image: '' },
+                    { name: 'Israel Elisha', image: '' },
+                    { name: 'K Prakash', image: '' }
+                ]
+            },
+            {
+                name: 'Skreammy',
+                project: '',
+                projDesc: '',
+                members: [
+                    { name: 'Raj Kumar R', image: '' },
+                    { name: 'Kiran K P', image: '' }
+                ]
+            },
+            {
+                name: '!HACKERS',
+                project: '',
+                projDesc: '',
+                members: [
+                    { name: 'CHIN', image: '' },
+                    { name: 'UJJAL', image: '' },
+                    { name: 'ADITYA', image: '' },
+                    { name: 'JOBIN', image: '' }
+                ]
+            },
+            {
+                name: 'Infinity',
+                project: '',
+                projDesc: '',
+                members: [
+                    { name: 'Adarsh Nair', image: '' },
+                    { name: 'Ravi Rajan', image: '' },
+                    { name: 'Samuel Lakra', image: '' },
+                    { name: 'Abhinav Jha', image: '' }
+                ]
+            },
+            {
+                name: 'The Drag Darts',
+                project: '',
+                projDesc: '',
+                members: [
+                    { name: 'Joshua Kachhap', image: '' },
+                    { name: 'Mohit Mall', image: '' }
+                ]
+            },
+            {
+                name: 'R3DHATS',
+                project: '',
+                projDesc: '',
+                members: [
+                    { name: 'Marumudi Samuel Sundar', image: '' },
+                    { name: 'Jnanender M', image: '' },
+                    { name: 'Zebadiah S Wahlang', image: '' },
+                    { name: 'Joel Mathew Toms', image: '' }
+                ]
+            },
+            {
+                name: 'snekGaming',
+                project: '',
+                projDesc: '',
+                members: [
+                    { name: 'Akash Antony', image: '' },
+                    { name: 'Basil Gouda', image: '' },
+                    { name: 'Ruhan Sam Varghese', image: '' },
+                    { name: 'Anand Jonathan', image: '' }
+                ]
+            },
+            {
+                name: 'VVS',
+                project: '',
+                projDesc: '',
+                members: [
+                    { name: 'Nakka Joshua', image: '' },
+                    { name: 'K.Oliver Paul', image: '' }
+                ]
+            },
+            {
+                name: 'mars1',
+                project: '',
+                projDesc: '',
+                members: [
+                    { name: 'Arulraam yogesh T R', image: '' },
+                    { name: 'Hari harasudhan P', image: '' },
+                    { name: 'Santhosh.S', image: '' },
+                    { name: 'subash pandiaraj k p', image: '' }
+                ]
+            },
+            {
+                name: 'TheCodeRed',
+                project: '',
+                projDesc: '',
+                members: [
+                    { name: 'E Preetham Manoj', image: '' },
+                    { name: 'T John Emmanuel', image: '' },
+                    { name: 'N Rahulsekhar', image: '' },
+                    { name: 'Anoop V', image: '' }
+                ]
+            },
+            {
+                name: 'Raven',
+                project: '',
+                projDesc: '',
+                members: [
+                    { name: 'Nitish Kumar Verma', image: '' },
+                    { name: 'Suraj Kumar', image: '' },
+                    { name: 'Bali Dheeraj Kumar', image: '' }
+                ]
+            },
+            {
+                name: 'Shelbys',
+                project: '',
+                projDesc: '',
+                members: [
+                    { name: 'Ajith John Mathew', image: '' },
+                    { name: 'Kishor K', image: '' },
+                    { name: 'Ananthu Sathyan', image: '' },
+                    { name: 'Alen C Saji', image: '' }
+                ]
+            },
+            {
+                name: 'ANONYMOUS',
+                project: '',
+                projDesc: '',
+                members: [
+                    { name: 'Ashik James', image: '' },
+                    { name: 'Kevin Joe Ronin', image: '' }
+                ]
+            },
+            {
+                name: 'THE BEATLES',
+                project: '',
+                projDesc: '',
+                members: [
+                    { name: 'Bhavith', image: '' },
+                    { name: 'Albin Binoy', image: '' },
+                    { name: 'Sreekesh', image: '' },
+                    { name: 'George Joy', image: '' }
+                ]
+            },
+            {
+                name: 'Alpha',
+                project: '',
+                projDesc: '',
+                members: [
+                    { name: 'Amala Nikitha G', image: '' },
+                    { name: 'Sowmya', image: '' },
+                    { name: 'Raichal Rose Jaison.c', image: '' },
+                    { name: 'Fiona Mary Milton', image: '' }
+                ]
+            },
+            {
+                name: 'Zorin',
+                project: '',
+                projDesc: '',
+                members: [
+                    { name: 'Nikhil Sekhar', image: '' },
+                    { name: 'Gaius Reji', image: '' },
+                    { name: 'K Sucharith David John', image: '' },
+                    { name: 'Vincent Ashish', image: '' }
+                ]
+            },
+            {
+                name: 'The Chaos Fixers',
+                project: '',
+                projDesc: '',
+                members: [
+                    { name: 'Sarah Sudhir', image: '' },
+                    { name: 'B.Vinavatani', image: '' },
+                    { name: 'Premila H Singha', image: '' },
+                    { name: 'Medha Rachel Panna', image: '' }
+                ]
+            },
+            {
+                name: 'Cyber squad',
+                project: '',
+                projDesc: '',
+                members: [
+                    { name: 'Kevin Benny', image: '' },
+                    { name: 'Jones Cyril', image: '' },
+                    { name: 'Wesley K Thomas', image: '' },
+                    { name: 'Anand Vijayan', image: '' }
+                ]
+            },
+            {
+                name: 'Bigetron',
+                project: '',
+                projDesc: '',
+                members: [
+                    { name: 'Akshay Dileep', image: '' },
+                    { name: 'Aby Mammen', image: '' },
+                    { name: 'Akshai KP', image: '' }
+                ]
+            }
+        ];
     }
     TeamsComponent.prototype.ngOnInit = function () {
-        var _this = this;
-        this.teamService.getTeams().subscribe(function (data) {
-            _this.teams = data;
-        });
+        // this.teamService.getTeams().subscribe(data => {
+        //   this.teams = data;
+        // });
     };
     TeamsComponent.prototype.ngAfterContentInit = function () {
         aos__WEBPACK_IMPORTED_MODULE_1__["init"]();

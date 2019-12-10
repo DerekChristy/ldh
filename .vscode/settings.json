@@ -4,5 +4,5 @@
     "typescript.preferences.quoteStyle": "single",
     "prettier.singleQuote": true,
     "javascript.preferences.quoteStyle": "single",
-    "prettier.jsxSingleQuote": true
+    "prettier.useEditorConfig": false
 }
